@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+.nav1{
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	background-color: #303030;
+	width: 100%;
+	padding: 5px;
+	align-content: center;
+}
+.links{
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+.icons{
+	display: flex;
+	vertical-align: middle;
+	padding: 10px;
+}
+.heart{
+	padding-right: 10px;
+}
+.like{
+	padding-right: 10px;
+}
+.user{
+	padding-right: 10px;
+}
+.links>ul{
+	list-style: none;
+
+}
+.first-menu-li{
+	display: inline;
+}
+
+.reg-btn{
+	background: #36BB1C;
+	border-color: white;
+	color: white;
+	padding: 5px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}
